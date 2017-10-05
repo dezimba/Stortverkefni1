@@ -44,10 +44,8 @@ main { /* stylelint-disable-line */
   overflow-x: hidden;
 }
 
-@import "scss/grid";
+@import "scss/buttons";
+@import "scss/footer";
 @import "scss/header";
-@import "scss/heading";
-@import "scss/text";
-@import "scss/button";
-@import "scss/card";
-@import "scss/cardlist";
+@import "scss/medm";
+@import "scss/nav";
