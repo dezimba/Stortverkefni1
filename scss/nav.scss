@@ -1,6 +1,11 @@
 .nav {
-  ul li{
-    display: inline;
-  }
+  h3 {
+    float: left;
+    display: inline-block;
+}
 
+ul {
+  /*  list-style-type: none; */
+    display:inline-block;
+    float:right;
 }
