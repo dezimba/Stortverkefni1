@@ -1,2 +1,16 @@
 .nav {
+  background-color: black;
+  color: white;
+
+  ul {
+    list-style: none;
+    display: inline-block;
+  }
+
+   li {
+     &:nth-child(2){
+       background-color: grey;
+       border-radius: 10%;
+     }
+   }
 }

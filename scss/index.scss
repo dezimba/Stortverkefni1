@@ -1,0 +1,11 @@
+.index {
+  &__header {
+    width: 100%;
+    background-image:url(bg.jpg);
+  }
+
+  &__content {
+    margin: 0 auto;
+    width: 1200px;
+  }
+}
