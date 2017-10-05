@@ -1,6 +1,6 @@
 .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-right: -($gutter / 2);
   margin-bottom: $gutter;
   margin-left: -($gutter / 2);
@@ -22,6 +22,10 @@
 
   &-8 {
     @include columns(8);
+  }
+
+  &-6 {
+    @include columns(6);
   }
 
   &-4 {
