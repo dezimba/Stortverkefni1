@@ -2,9 +2,18 @@
   background-color: black;
   color: white;
 
+  nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  }
+
   ul {
     list-style: none;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+
   }
 
    li {
