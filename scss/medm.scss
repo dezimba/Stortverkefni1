@@ -1,4 +1,22 @@
 .medm {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+
+  blockquote {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  &__nafn {
+    font-weight: bold;
+  }
+
+  &__askrift {
+    font-style: italic;
+  }
+
   img {
     border-radius: 100%;
   }
