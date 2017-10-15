@@ -1,0 +1,29 @@
+.button {
+  display: inline-block;
+
+  width: 100%;
+  max-width: 256px;
+  padding: 10px 5px;
+  margin: 0;
+  overflow: hidden;
+
+  font-family: Lato, helvetica, arial, sans-serif;
+  font-size: 1rem;
+
+  color: #eee;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+
+  background-color: #666;
+
+  border: 1px solid #666;
+  border-radius: 4px;
+
+  &:hover {
+    color: #eee;
+    background-color: #333;
+  }
+}
