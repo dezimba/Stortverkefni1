@@ -31,12 +31,16 @@
       </div>
     </div>
     <main>
-    <div class="info">
-    <h2>Persónuupplýsingar</h2>
-    <form>
+    <div class="row">
+    <div class="col col-1">
+    </div>
+    <div class="info col col-4">
+      <h2>Persónuupplýsingar</h2> <br>
+      <form>
       <fieldset, border=0;>
-        Nafn:<br> <input type="text"><br>
-        Kennitala:<br> <input type="text"><br><br>
+        Nafn:<br> <input type="text" class="info__br"><br>
+        Kennitala:<br> <input type="text" class="info__br"><br><br>
+        <div class="info__br">
         Kyn: <br>
         <input type="radio" name="format" id="karl" value="karl">
         <label for=karl> Karl </label>
@@ -46,13 +50,58 @@
         <br>
         <input type="radio" name="format" id="annað" value="annað">
         <label for=annað> Annað </label><br>
-        Sími:<br> <input type="sími"><br>
-        Heimilisfang:<br> <input type="heimilisfang"><br>
-        <input type="checkbox" name="postlisti" id="post" checked>
+      </div>
+        Sími:<br> <input type="sími" class="info__br"><br>
+        Heimilisfang:<br> <input type="heimilisfang" class="info__br"><br>
+        <input type="checkbox" name="postlisti" id="post" checked class="info__br">
         <label for=post> Skrá mig á póstlista</label>
       </fieldset>
     </form>
-    </div>
+  </div>
+  <div class="col col-1">
+  </div>
+  <div class="col col-1">
+  </div>
+  <div class="info2 col col-4">
+    <h2>Greiðsluupplýsingar</h2> <br>
+    <form>
+    <fieldset, border=0;>
+      Greiða með:<br><select>
+        <option value="kredit">Kreditkorti</option>
+        <option value="millif">Millifærslu</option>
+        <option value="cash">Reiðufé</option>
+        </select><br>
+      Nafn á korti:<br> <input type="text"><br>
+      Kortanúmer: <br> <input type="text"><br>
+      Gildistími: <br>
+      Mán <select>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="03">03</option>
+        <option value="04">04</option>
+        <option value="05">05</option>
+        <option value="06">06</option>
+        <option value="07">07</option>
+        <option value="08">08</option>
+        <option value="09">09</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+      Ár <select>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+      </select>
+    </fieldset>
+  </form>
+
+  </div>
+  </div>
+  <div class="kaupa">
+  <button class="button">Kaupa</button>
+  </div>
     </main>
     <footer>
       <div class="footer">
