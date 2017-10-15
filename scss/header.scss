@@ -2,6 +2,7 @@
 
   &__index {
     background-image: url(bg.jpg);
+    background-position: 50% 50%;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -11,6 +12,7 @@
 
   &__subpage {
     background-image: url(bg-subpage.jpg);
+    background-position: 50% 50%;
     width: 100%;
     height: 100vh;
     display: flex;
