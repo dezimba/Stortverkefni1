@@ -36,12 +36,24 @@
     @include columns(1);
   }
 
+  &-0 {
+    @include columns(0);
+  }
+
   // todo útfæra rest af grid
 
   &-sm {
-    @media (max-width: 599px) {
+    @media (max-width: 600px) {
       &-12 {
         @include columns(12);
+      }
+
+      &-6 {
+        @include columns(6);
+      }
+
+      &-0 {
+        @include columns(0);
       }
 
       // todo útfæra rest af sm grid
