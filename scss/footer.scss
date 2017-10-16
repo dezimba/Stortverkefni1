@@ -1,18 +1,18 @@
 .footer {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.75);
-  padding: $gutter;
   display: flex;
+  padding: $gutter;
+  margin-top: $gutter*2;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
   flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.75);
   justify-content: space-between;
   align-content: center;
-  text-align: center;
-  margin-top: $gutter*2;
-  white-space: nowrap;
 
   &__left {
-    padding-left: 500px;
     padding-right: 20px;
+    padding-left: 500px;
   }
 
   &__right {
