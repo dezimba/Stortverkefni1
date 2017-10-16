@@ -15,7 +15,7 @@
     width: 100%;
     height: 100vh;
     margin-bottom: $gutter*4;
-    color: white;
+    color: #fff;
     flex-direction: row;
     background-image: url("bg-subpage.jpg");
     background-position: 50% 50%;
@@ -48,8 +48,9 @@
     0% {
       opacity: 0;
     }
+
     100% {
-      opacity:1;
+      opacity: 1;
     }
   }
 
@@ -61,8 +62,9 @@
     0% {
       opacity: 0;
     }
+
     100% {
-      opacity:1;
+      opacity: 1;
     }
   }
 
@@ -74,8 +76,9 @@
     0% {
       opacity: 0;
     }
+
     100% {
-      opacity:1;
+      opacity: 1;
     }
   }
 }
