@@ -39,4 +39,43 @@
       font-size: 2.5em;
     }
   }
+
+  &__p {
+    animation: parafade 1s ease-in;
+  }
+
+  @keyframes parafade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  &__h1 {
+    animation: h1fade 2s ease-in;
+  }
+
+  @keyframes h1fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  &.button {
+    animation: buttonfade 3s ease-in;
+  }
+
+  @keyframes buttonfade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
 }
