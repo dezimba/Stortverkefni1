@@ -8,13 +8,16 @@
   align-content: center;
   text-align: center;
   margin-top: $gutter*2;
+  white-space: nowrap;
 
   &__left {
     padding-left: 450px;
+    padding-right: 10px;
   }
 
   &__right {
     padding-right: 450px;
+    padding-left: 10px;
   }
 
   hr {
