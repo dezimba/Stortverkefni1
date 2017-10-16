@@ -42,6 +42,11 @@ h4, {
   font-family: 'Roboto Slab', serif;
 }
 
+section + section {
+  margin-top: $gutter*4;
+  margin-bottom: $gutter*4;
+}
+
 main { /* stylelint-disable-line */
   max-width: $max-width;
   margin: 0 auto;

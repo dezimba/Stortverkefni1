@@ -8,20 +8,36 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: $gutter*6;
   }
 
   &__subpage {
     background-image: url(bg-subpage.jpg);
-    /*background-position: 50% 50%;*/
+    background-position: 50% 50%;
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
     align-content: center;
+    margin-bottom: $gutter*4;
   }
 
   &__content {
       margin: 0 auto;
       max-width: 1200px;
+      text-align: center;
+
+      p {
+        font-size: 3em;
+      }
+
+      h1 {
+        font-size: 6em;
+        margin-bottom: $gutter*2;
+      }
+
+      a {
+        font-size: 2.5em;
+      }
   }
 }
