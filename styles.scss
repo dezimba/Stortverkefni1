@@ -35,14 +35,11 @@ img { /* stylelint-disable-line */
   max-width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4, {
+h1, h2, h3, h4, { /* stylelint-disable-line */
   font-family: "Roboto Slab", serif;
 }
 
-section + section {
+section + section { /* stylelint-disable-line */
   margin-top: $gutter*4;
   margin-bottom: $gutter*4;
 }
@@ -66,3 +63,4 @@ main { /* stylelint-disable-line */
 @import "scss/index";
 @import "scss/box";
 @import "scss/tilvitnun";
+@import "scss/elements";
