@@ -4,6 +4,11 @@
   margin-right: -($gutter / 2);
   margin-bottom: $gutter;
   margin-left: -($gutter / 2);
+
+  @media (max-width: 599px) {
+    flex-wrap: wrap;
+    height: 100%;
+  }
 }
 
 // mixin sem reiknar nákvæmar prósentur útfrá dálkum
@@ -43,7 +48,7 @@
   // todo útfæra rest af grid
 
   &-sm {
-    @media (max-width: 600px) {
+    @media (max-width: 599px) {
       &-12 {
         @include columns(12);
       }
