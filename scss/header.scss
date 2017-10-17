@@ -25,22 +25,10 @@
   &__content {
     max-width: 1200px;
     text-align: center;
-
-    p {
-      font-size: 3em;
-    }
-
-    h1 {
-      margin-bottom: $gutter*2;
-      font-size: 6em;
-    }
-
-    a {
-      font-size: 2.5em;
-    }
   }
 
   &__p {
+    font-size: 3em;
     animation: parafade 1s ease-in;
   }
 
@@ -55,6 +43,8 @@
   }
 
   &__h1 {
+    margin-bottom: $gutter*2;
+    font-size: 6em;
     animation: h1fade 2s ease-in;
   }
 
@@ -69,6 +59,7 @@
   }
 
   &.button {
+    font-size: 2.5em;
     animation: buttonfade 3s ease-in;
   }
 

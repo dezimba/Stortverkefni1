@@ -15,25 +15,25 @@
     margin: auto;
   }
 
-  nav {
+  &__valmynd {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
   }
 
-  a {
+  &___link {
     height: 100%;
     color: #fff;
     text-decoration: none;
   }
 
-  a:hover {
+  a:hover { /* stylelint-disable-line */
     color: #fff;
     text-decoration: none;
     cursor: pointer;
   }
 
-  ul {
+  &__list {
     display: flex;
     height: 100%;
     list-style: none;
@@ -41,8 +41,7 @@
     align-content: flex-end;
   }
 
-  li {
-    /* margin: 1em; */
+  &__item {
     height: 100%;
     padding-right: 10px;
   }
