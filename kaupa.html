@@ -13,7 +13,7 @@
     <div class="nav">
       <div class="nav__container">
         <nav>
-          <h3>Fooþjónustan</h3>
+          <h3><a href="index.html">Fooþjónustan</a></h3>
           <ul>
             <li>
               <a href="um.html">Um</a>
@@ -35,74 +35,94 @@
     <div class="col col-1 col-sm-0">
     </div>
     <div class="info col col-4 col-sm-6">
-      <h2>Persónuupplýsingar</h2> <br>
+      <h2>Persónuupplýsingar</h2>
+      <div class="Persupp">
+        <form>
+          <fieldset, border=0;>
+           <div class="Persupp__nafn">
+            Nafn:<input type="text" class="info__br">
+           </div>
+           <div class="Persupp__kennitala">
+            Kennitala: <input type="number" class="info__br" placeholder="123456-7890">
+          </div>
+          <div class="Persupp__kyn">
+            Kyn:
+            <label for=karl>
+            <input type="radio" name="format" id="karl" value="karl"> Karl
+            </label>
+            <label for=kona>
+            <input type="radio" name="format" id="kona" value="kona"> Kona
+            </label>
+            <label for=annað>
+            <input type="radio" name="format" id="annað" value="annað"> Annað
+            </label>
+          </div>
+          <div class="Persupp__simi">
+            Sími:<input type="number" class="info__br" placeholder="+354 812 3456">
+          </div>
+          <div class="Persupp__heimilisfang">
+            Heimilisfang:<input type="text" class="info__br">
+          </div>
+          <div class="Persupp__post">
+            <input type="checkbox" name="postlisti" id="post" checked>
+            <label for=post> Skrá mig á póstlista</label>
+          </div>
+        </fieldset>
+      </form>
+     </div>
+    </div>
+  <div class="col col-2 col-sm-0">
+  </div>
+  <div class="info col col-4 col-sm-6">
+    <h2>Greiðsluupplýsingar</h2>
+     <div class="Greidsluupp">
       <form>
-      <fieldset, border=0;>
-        Nafn:<br> <input type="text" class="info__br"><br>
-        Kennitala:<br> <input type="text" class="info__br"><br><br>
-        <div class="info__br">
-        Kyn: <br>
-        <input type="radio" name="format" id="karl" value="karl">
-        <label for=karl> Karl </label>
-        <br>
-        <input type="radio" name="format" id="kona" value="kona">
-        <label for=kona> Kona </label>
-        <br>
-        <input type="radio" name="format" id="annað" value="annað">
-        <label for=annað> Annað </label><br>
-      </div>
-        Sími:<br> <input type="sími" class="info__br"><br>
-        Heimilisfang:<br> <input type="heimilisfang" class="info__br"><br>
-        <input type="checkbox" name="postlisti" id="post" checked class="info__br">
-        <label for=post> Skrá mig á póstlista</label>
-      </fieldset>
+        <fieldset, border=0;>
+         <div class="Greidsluupp__greidamed">
+          Greiða með:<select>
+            <option value="kredit">Kreditkorti</option>
+            <option value="millif">Millifærslu</option>
+            <option value="cash">Reiðufé</option>
+          </select>
+        </div>
+        <div class="Greidsluupp__kortnafn">
+          Nafn á korti:<input type="text">
+        </div>
+        <div class="Greidsluupp__kortanumer">
+          Kortanúmer:<input type="text" placeholder="5999-9999-9999-9999">
+        </div>
+          Gildistími:
+          <div class="Greidsluupp__gildistimi">
+          Mán <select>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+         Ár <select>
+           <option value="2017">2017</option>
+           <option value="2018">2018</option>
+           <option value="2019">2019</option>
+           <option value="2020">2020</option>
+         </select>
+       </div>
+     </fieldset>
     </form>
+   </div>
   </div>
-  <div class="col col-1 col-sm-0">
-  </div>
-  <div class="col col-1 col-sm-0">
-  </div>
-  <div class="info2 col col-4 col-sm-6">
-    <h2>Greiðsluupplýsingar</h2> <br>
-    <form>
-    <fieldset, border=0;>
-      Greiða með:<br><select>
-        <option value="kredit">Kreditkorti</option>
-        <option value="millif">Millifærslu</option>
-        <option value="cash">Reiðufé</option>
-        </select><br>
-      Nafn á korti:<br> <input type="text"><br>
-      Kortanúmer: <br> <input type="text"><br>
-      Gildistími: <br>
-      Mán <select>
-        <option value="01">01</option>
-        <option value="02">02</option>
-        <option value="03">03</option>
-        <option value="04">04</option>
-        <option value="05">05</option>
-        <option value="06">06</option>
-        <option value="07">07</option>
-        <option value="08">08</option>
-        <option value="09">09</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-      </select>
-      Ár <select>
-        <option value="2017">2017</option>
-        <option value="2018">2018</option>
-        <option value="2019">2019</option>
-        <option value="2020">2020</option>
-      </select>
-    </fieldset>
-  </form>
-
-  </div>
-  </div>
-  <div class="kaupa">
-  <button class="button">Panta</button>
-  </div>
-    </main>
+ </div>
+   <div class="info__button">
+     <a href="" class="button">Panta</a>
+   </div>
+</main>
     <footer class="footer">
       <div class="footer__main">
         <div class="footer__left">

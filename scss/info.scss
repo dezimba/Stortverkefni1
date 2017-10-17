@@ -1,13 +1,69 @@
-.info {
-  padding-top: 20px;
+.info{
 
+.Persupp{
+
+  &__nafn{
+    display:flex;
+    flex-direction: column;
+    padding-top:1em;
+  }
+  &__kennitala{
+    display:flex;
+    flex-direction: column;
+    padding-top:1em;
+  }
+  &__kyn{
+    display:flex;
+    flex-direction: column;
+    padding-top:1em;
+
+  }
+  &__simi{
+    display:flex;
+    flex-direction: column;
+    padding-top:1em;
+  }
+  &__heimilisfang{
+    display: flex;
+    flex-direction: column;
+    padding-top:1em;
+  }
 }
 
-.info2 {
-  padding-top: 20px;
-}
+.Greidsluupp{
 
-.kaupa {
-  display: flex;
-  justify-content: center;
+   &__greidamed{
+     display: flex;
+     flex-direction: column;
+     padding-top:1em;
+   }
+   &__kortnafn{
+     display: flex;
+     flex-direction: column;
+     padding-top:1em;
+   }
+   &__kortanumer{
+     display: flex;
+     flex-direction: column;
+     padding-top:1em;
+     padding-bottom: 1em;
+   }
+   &__gildistimi:nth-child(n+1){
+      width:240px;
+      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+   }
+ }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 }
