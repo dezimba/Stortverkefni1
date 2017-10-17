@@ -2,7 +2,7 @@
   display: flex;
   padding: $gutter;
   margin-top: $gutter*2;
-  color: white;
+  color: #fff;
   text-align: center;
   white-space: nowrap;
   flex-direction: column;
@@ -33,6 +33,6 @@
   }
 
   .watermark {
-    color: grey;
+    color: #808080;
   }
 }
