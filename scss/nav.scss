@@ -25,11 +25,11 @@
   }
 
   &__heim {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
   }
 
-  a:hover { /* stylelint-disable-line */
+  &__link:hover {
     color: #fff;
     text-decoration: none;
     cursor: pointer;

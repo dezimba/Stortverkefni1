@@ -1,60 +1,71 @@
-.info{
+.info {
+  .Persupp {
+    &__fields {
+      border: 0;
+    }
 
-.Persupp{
-
-  &__nafn{
-    display:flex;
-    flex-direction: column;
-    padding-top:1em;
-  }
-  &__kennitala{
-    display:flex;
-    flex-direction: column;
-    padding-top:1em;
-  }
-  &__kyn{
-    display:flex;
-    flex-direction: column;
-    padding-top:1em;
-
-  }
-  &__simi{
-    display:flex;
-    flex-direction: column;
-    padding-top:1em;
-  }
-  &__heimilisfang{
-    display: flex;
-    flex-direction: column;
-    padding-top:1em;
-  }
-}
-
-.Greidsluupp{
-
-   &__greidamed{
-     display: flex;
-     flex-direction: column;
-     padding-top:1em;
-   }
-   &__kortnafn{
-     display: flex;
-     flex-direction: column;
-     padding-top:1em;
-   }
-   &__kortanumer{
-     display: flex;
-     flex-direction: column;
-     padding-top:1em;
-     padding-bottom: 1em;
-   }
-   &__gildistimi:nth-child(n+1){
-      width:240px;
-      overflow: hidden;
+    &__nafn {
       display: flex;
+      padding-top: 1em;
+      flex-direction: column;
+    }
+
+    &__kennitala {
+      display: flex;
+      padding-top: 1em;
+      flex-direction: column;
+    }
+
+    &__kyn {
+      display: flex;
+      padding-top: 1em;
+      flex-direction: column;
+    }
+
+    &__simi {
+      display: flex;
+      padding-top: 1em;
+      flex-direction: column;
+    }
+
+    &__heimilisfang {
+      display: flex;
+      padding-top: 1em;
+      flex-direction: column;
+    }
+  }
+
+  .Greidsluupp {
+    &__fields {
+      border: 0;
+    }
+
+    &__greidamed {
+      display: flex;
+      padding-top: 1em;
+      flex-direction: column;
+    }
+
+    &__kortnafn {
+      display: flex;
+      padding-top: 1em;
+      flex-direction: column;
+    }
+
+    &__kortanumer {
+      display: flex;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      flex-direction: column;
+    }
+
+    &__gildistimi:nth-child(n+1) {
+      display: flex;
+      width: 240px;
+      overflow: hidden;
       justify-content: space-between;
-   }
- }
+    }
+  }
 
   &__button {
     display: flex;
