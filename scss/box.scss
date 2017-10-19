@@ -6,6 +6,7 @@
   &__main {
     display: flex;
     flex-flow: row;
+    padding-bottom: $gutter;
   }
 
   &__content {
@@ -19,6 +20,6 @@
   }
 
   &__image {
-    width: 5%;
+    width: 10%;
   }
 }

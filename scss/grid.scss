@@ -4,8 +4,9 @@
   margin-right: -($gutter / 2);
   margin-bottom: $gutter;
   margin-left: -($gutter / 2);
+  justify-content: center;
 
-  @media (max-width: 599px) {
+  @media (max-width: 799px) {
     flex-wrap: wrap;
     height: 100%;
   }
@@ -64,8 +65,41 @@
       &-0 {
         @include columns(0);
       }
+    }
+  }
 
-      // todo útfæra rest af sm grid
+  &-smx {
+    @media (max-width: 399px) {
+      &-12 {
+        @include columns(12);
+      }
+
+      &-6 {
+        @include columns(6);
+      }
+
+      &-4 {
+        @include columns(4);
+      }
+    }
+  }
+
+}
+
+.offset {
+  &-2 {
+    margin-left: (2 / 12 * 100) * 1%; // reiknað einsog að ofan
+  }
+
+  &-1 {
+    margin-left: (1 / 12 * 100) * 1%;
+  }
+
+  &-sm {
+    @media (max-width: 599px) {
+      &-0 {
+        margin-left: 0;
+      }
     }
   }
 }

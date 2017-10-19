@@ -50,5 +50,8 @@
 
   .button {
     padding: 0;
+    @media (max-width: 399px) {
+      display: hidden;
+    }
   }
 }

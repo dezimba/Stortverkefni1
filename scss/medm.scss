@@ -1,6 +1,8 @@
 .medm {
   display: flex;
   justify-content: space-between;
+  height: 100%;
+  padding-bottom: $gutter*3;
   text-align: center;
   flex-direction: column;
   align-items: center;
